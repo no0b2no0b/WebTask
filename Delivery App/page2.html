@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+    <title>message</title>
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+
+        .container {
+            width: 1200px;
+            height: 800px;
+            left: 0px;
+            top: 0px;
+            background: rgba(193, 188, 188, 0.35);
+            margin-bottom: 500px;
+            border-radius: 10px;
+        }
+
+        .bg {
+            height: 1500px;
+            background-color: #514f4f;
+            padding-left: 160px;
+            padding-top: 120px;
+        }
+
+        .heading {
+            width: 264px;
+            height: 20px;
+            left: 536px;
+            padding-top: 50px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 40px;
+            line-height: 20px;
+
+        }
+
+        .container ul li {
+            list-style: none;
+        }
+
+        .hd1 {
+            width: 247px;
+            height: 15px;
+            left: 0px;
+            top: 0px;
+            margin-left: 110px;
+            margin-top: 120px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 19px;
+            color: #313131;
+        }
+
+        #name {
+            align-items: center;
+            padding: 16px;
+            gap: 10px;
+
+            margin-top: 10px;
+            margin-left: 110px;
+            width: 600px;
+            height: 20px;
+            left: 0.5px;
+            top: 22px;
+
+            background: #F2F2F2;
+            border-radius: 10px;
+        }
+
+        .hd2 {
+            margin-left: 110px;
+            margin-top: 20px;
+            width: 247px;
+            height: 15px;
+            left: 0px;
+            top: 0px;
+            color: #313131;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 19px;
+        }
+
+        #image {
+            align-items: center;
+            padding: 16px;
+            gap: 10px;
+
+            margin-top: 10px;
+            margin-left: 110px;
+            width: 600px;
+            height: 20px;
+            left: 0.5px;
+            top: 22px;
+
+            background: #F2F2F2;
+            border-radius: 10px;
+        }
+
+        .cancel {
+            margin-top: 130px;
+            width: 150px;
+            height: 60px;
+            left: 52px;
+            top: 107px;
+            color: #1AC073;
+            border-color: #1AC073;
+            background: #F7F8FA;
+            border-radius: 20px;
+        }
+
+        .submit {
+            padding: 19px 25px;
+            gap: 10px;
+
+            width: 150px;
+            height: 60px;
+
+            background: #1AC073;
+            border-radius: 20px;
+            margin-left: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <section class="bg">
+
+        <section class="container">
+
+
+            <ul>
+                <center>
+                    <li>
+                        <section class="heading">Request a Dish</section>
+                    </li>
+                </center>
+                <li>
+                    <section class="hd1">Name*</section>
+                </li>
+
+                <li>
+                    <section>
+                        <label for="name"></label>
+                        <input type="text" name="myname" id="name" placeholder="Enter name of the dish">
+                    </section>
+                </li>
+                <li>
+                    <section class="hd2">Upload an Image</section>
+                </li>
+                <li>
+                    <section>
+                        <label for="image"></label>
+                        <input type="text" name="muimage" id="image" placeholder="Paste a URL">
+                    </section>
+                </li>
+                <center>
+                    <li>
+                        <button class="cancel" type="button">Cancel</button>
+                        <span>
+                            <button class="submit" type="button">Submit Request</button>
+                        </span>
+                    </li>
+                </center>
+            </ul>
+
+        </section>
+
+    </section>
+
+
+
+</body>
+
+</html>
